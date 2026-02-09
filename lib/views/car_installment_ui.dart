@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart'; // อย่าลืมติดตั้งแพ็กเกจ intl ใน pubspec.yaml
+import 'package:intl/intl.dart'; 
 
 class CarInstallmentUi extends StatefulWidget {
   const CarInstallmentUi({super.key});
@@ -13,7 +13,7 @@ class _CarInstallmentUiState extends State<CarInstallmentUi> {
   final TextEditingController _priceCtrl = TextEditingController();
   final TextEditingController _interestCtrl = TextEditingController();
 
-  // 2. ตัวแปรเก็บค่าจาก Radio และ Dropdown
+ 
   int _selectedDownPayment = 10;
   int _selectedMonth = 24;
   String _totalResult = "0.00";
